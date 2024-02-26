@@ -1,0 +1,41 @@
+.image-container {
+  flex-grow: 1;
+  margin-left: 2rem;
+}
+
+.img {
+  max-width: 20px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+
+.text {
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: grey;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 25px;
+  padding: 0.2rem 0.8rem;
+  font-size: 1rem;
+  border: none;
+}
